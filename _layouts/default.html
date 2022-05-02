@@ -1,0 +1,78 @@
+---
+layout: compress.html
+---
+
+
+{% if page.name == 'blog' %}
+
+{% assign body_class = 'version-blog' %}
+
+{% elsif page.hero == 'product_background_image' %}
+
+{% assign body_class = 'version4' %}
+
+{% elsif page.hero == 'product_fixed_image' %}
+
+{% assign body_class = 'version7' %}
+
+{% elsif page.hero == 'product' %}
+
+{% assign body_class = 'version2' %}
+
+{% elsif page.hero == 'product_slider' %}
+
+{% assign body_class = 'version9' %}
+
+{% elsif page.hero == 'product_video' %}
+
+{% assign body_class = 'version9' %}
+
+{% elsif page.hero == 'saas_video' %}
+
+{% assign body_class = 'version8' %}
+
+{% elsif page.hero == 'sass_background_image' %}
+
+{% assign body_class = 'version3' %}
+
+{% elsif page.hero == 'sass_fixed_image' %}
+
+{% assign body_class = 'version1-1' %}
+
+{% elsif page.hero == 'sass_slider' %}
+
+{% assign body_class = 'version8' %}
+    
+{% elsif page.hero == "sass" %}
+
+{% assign body_class = 'version1' %}
+
+{%- elsif page.hero == 'sass_video' -%}
+
+{% assign body_class = 'version8' %}
+
+{% else %}
+
+{% assign body_class = 'version1' %}
+
+{% endif %}
+
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+{% include head.html %}
+
+<body class="version1-1 parent-active">
+
+	{% include header-landing.html %}
+
+	{{ content }}
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
+</body>
+
+</html>
+
+

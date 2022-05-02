@@ -1,0 +1,77 @@
+
+{%- if page.hero -%}
+    {%- assign hero = page.hero -%}
+{%- else -%}
+    {%- assign hero = site.hero -%}
+{%- endif -%}
+
+
+
+
+{%- if hero == 'product_video' -%}
+
+    {% include hero/product_video.html %}
+
+{% elsif hero == 'sass_sideo' %}
+
+    {% include hero/saas_video.html %}
+
+{% elsif hero == 'products_fixed' %}
+
+    {% include hero/products_fixed.html %}
+
+{% elsif hero == 'product_slider' %}
+
+    {% include hero/product_slider.html %}
+
+{% elsif hero == 'saas_slider' %}
+
+
+{%- elsif hero == 'sass_slider' -%}
+
+    {% include hero/sass_slider.html %}
+
+{% elsif hero == 'product_image' %}
+
+    {% include hero/product_image.html %}
+
+{% elsif hero == 'saas_image' %}
+
+    {% include hero/saas_image.html %}
+
+{% elsif hero == 'product' %}
+
+    {% include hero/product.html %}
+
+{% elsif hero == 'product_video' %}
+
+    {% include hero/product_video.html %}
+
+{% elsif hero == 'product_image' %}
+
+{%- elsif hero == 'product_background_image' -%}
+
+    {% include hero/product_background_image.html %}
+
+{% elsif hero == 'saas_image' %}
+
+    {% include hero/saas_image.html %}
+
+{% elsif hero == 'product' %}
+
+    {% include hero/product.html %}
+    
+{% elsif hero == "saas_fixed" %}
+
+    {% include hero/saas_fixed.html %}
+
+{%- elsif hero == 'sass_video' -%}
+
+    {% include hero/saas_video.html %}
+    
+{% elsif hero == "sass" %}
+
+    {% include hero/sass.html %}
+
+{% endif %}
+
