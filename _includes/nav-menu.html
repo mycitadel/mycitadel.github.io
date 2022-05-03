@@ -1,20 +1,7 @@
-{%- if page.hero -%}
-    {%- assign hero = page.hero -%}
-{%- else -%}
-    {%- assign hero = site.hero -%}
-{%- endif -%}
-
-{%- assign navClass = ' nav-menu2' -%}
-{%- if hero == 'sass' -%}
-    {%- assign navClass = ' ' -%}
-{%- elsif hero == 'sass_sideo' -%}
-    {%- assign navClass = ' nav-menu2' -%}
-
-{%- endif -%}
 
 <div class="nav-wrap d-flex flex-row align-items-center">
     <nav id="nav-menu-container">
-        <ul class="nav-menu px-3 {{navClass}}">
+        <ul class="nav-menu px-3 nav-menu nav-menu2 sf-js-enabled sf-arrows parent-active">
             {%- for menu in site.data.menus.header -%}
             {%- if menu.menu-has-children -%} 
             <li  class="menu-has-children ">  <!-- parent-active -->

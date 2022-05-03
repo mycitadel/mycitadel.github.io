@@ -28,8 +28,7 @@ markdown            : kramdown
 google_analytics: 
 
 # disqus comment
-disqus_shortname: mycitadel
-
+disqus_shortname: softdash
 
 
 ####################################
@@ -41,7 +40,7 @@ disqus_shortname: mycitadel
 # product_slider                    sass_fixed_image
 # product_video                     sass_slider       
 
-hero: 'sass_fixed_image'
+hero: 'product_fixed_image'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -85,8 +84,8 @@ mailchimp:
 ####################################
 ######        Copyright       ######
 ####################################
-copyright_text: Copyright © 2022 All rights reserved to Pandora Prime Sarl
-company_url: 'https://pandoraprime.ch'
+copyright_text: Copyright © 2021 All rights reserved to
+company_url: '#'
 
 
 # SEO Related

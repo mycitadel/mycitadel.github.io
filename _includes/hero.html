@@ -1,77 +1,20 @@
-
-{%- if page.hero -%}
-    {%- assign hero = page.hero -%}
-{%- else -%}
-    {%- assign hero = site.hero -%}
-{%- endif -%}
-
-
-
-
-{%- if hero == 'product_video' -%}
-
-    {% include hero/product_video.html %}
-
-{% elsif hero == 'sass_sideo' %}
-
-    {% include hero/saas_video.html %}
-
-{% elsif hero == 'products_fixed' %}
-
-    {% include hero/products_fixed.html %}
-
-{% elsif hero == 'product_slider' %}
-
-    {% include hero/product_slider.html %}
-
-{% elsif hero == 'saas_slider' %}
-
-
-{%- elsif hero == 'sass_slider' -%}
-
-    {% include hero/sass_slider.html %}
-
-{% elsif hero == 'product_image' %}
-
-    {% include hero/product_image.html %}
-
-{% elsif hero == 'saas_image' %}
-
-    {% include hero/saas_image.html %}
-
-{% elsif hero == 'product' %}
-
-    {% include hero/product.html %}
-
-{% elsif hero == 'product_video' %}
-
-    {% include hero/product_video.html %}
-
-{% elsif hero == 'product_image' %}
-
-{%- elsif hero == 'product_background_image' -%}
-
-    {% include hero/product_background_image.html %}
-
-{% elsif hero == 'saas_image' %}
-
-    {% include hero/saas_image.html %}
-
-{% elsif hero == 'product' %}
-
-    {% include hero/product.html %}
-    
-{% elsif hero == "saas_fixed" %}
-
-    {% include hero/saas_fixed.html %}
-
-{%- elsif hero == 'sass_video' -%}
-
-    {% include hero/saas_video.html %}
-    
-{% elsif hero == "sass" %}
-
-    {% include hero/sass.html %}
-
-{% endif %}
-
+<!-- Start hero-section -->
+<section class="hero-section relative">
+    <div class="container">
+        <div class="row fullscreen align-items-center relative">
+            <div class="col-lg-6 content-wrap">
+                <h1 class="pt-5">
+                    {{ site.data.hero.saas_fixed_image_name }}
+                </h1>
+                <p class="pt-20 pb-20 mw-510">
+                    {{ site.data.hero.saas_fixed_image_text }}
+                </p>
+                <a href="{{ site.data.hero.saas_fixed_image_btn_one_link | absolute_url }}" class="genric-btn">
+                    {{ site.data.hero.saas_fixed_image_btn_one_text }}
+                </a>
+            </div>
+        </div>
+    </div>
+    <img class="hero-img" src="{{ site.data.hero.saas_fixed_image_image | relative_url }}" alt="">
+</section>
+<!-- End hero-section -->
