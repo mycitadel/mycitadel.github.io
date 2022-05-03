@@ -2,18 +2,16 @@
 ####################################
 ######     Global start     ######
 ####################################
-name                : 'Ducor'
-title               : 'Softdash - Creative SaaS And Software HTML5 Jekyll Template'
-email               : demo@example.com
-address             : '2216 Park Avenue, California 95630 '
-phone               : 0185612012035
+name                : 'MyCitadel'
+title               : 'MyCitadel - Ultimate digital sovereignity for bitcoiners'
+email               : enquiries@mycitadel.io
 tagline             : 'description for your new site here' 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  MyCitadel is a suite of software, hardware and Internet services focused on digital individual sovereignty and privacy. Primarily, is a wallet for bitcoin, digital assets and bitcoin finance (#BiFi) smart contracts. It is blazingly fast, secure, cross-platform and technically most advanced wallet on the market, being the first wallet allowing taproot multisig and locktime-based spending conditions.
+
+  Do a reliable hodling (with inheritance options), corporate/organization, & current accounts - or instant Lightning payments. Work with single- and multisig setups, based on hardware, air-gaped, cold and server-side hot key storage, involving arbitrary complex time-lock scripts (with miniscript) and wide interoperability (because of use of wallet descriptors).
 baseurl             : "" # the subpath of your site, e.g. /blog
-url                 : "https://softdash.jekylltemplate.com" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
+url                 : "https://mycitadel.io" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 favicon: 'img/favicon.png'
 
 paginate: 12
@@ -30,7 +28,8 @@ markdown            : kramdown
 google_analytics: 
 
 # disqus comment
-disqus_shortname: softdash
+disqus_shortname: mycitadel
+
 
 
 ####################################
@@ -42,7 +41,7 @@ disqus_shortname: softdash
 # product_slider                    sass_fixed_image
 # product_video                     sass_slider       
 
-hero: 'product_fixed_image'
+hero: 'sass_fixed_image'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -86,8 +85,8 @@ mailchimp:
 ####################################
 ######        Copyright       ######
 ####################################
-copyright_text: Copyright © 2021 All rights reserved to
-company_url: '#'
+copyright_text: Copyright © 2022 All rights reserved to Pandora Prime Sarl
+company_url: 'https://pandoraprime.ch'
 
 
 # SEO Related
