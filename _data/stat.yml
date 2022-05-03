@@ -1,9 +1,9 @@
 ####################################
 ######  Statistics Section    ######
 ####################################
-title: 'We glow with Our Statistics'
-description: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools getting infected.'
-image: 'img/title-icon.png'
+title: 'Higlights'
+description: ''
+image: ''
 
 # main big image
 start_image: 'img/stat/stat-img.png'
@@ -11,22 +11,23 @@ start_image: 'img/stat/stat-img.png'
 # 4 section image
 statistics:
   - image: 'img/stat/s1.png'
-    title: 'Productivity'
+    title: 'Pre-set wallet templates'
     link: '#'
-    description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'
+    description: 'Save time setting complex multi-sig wallets with a rich set of configurable presets.'  
 
   - image: 'img/stat/s2.png'
-    title: 'Sales Monitoring'
+    title: 'No tracking.'
     link: '#'
-    description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'
+    description: 'We value the privacy above everything else. The app does not talk to any external parties other than electrum server.'  
+
+  - image: 'img/stat/s3.png'
+    title: 'Fast. Written in rust.'
+    link: '#'
+    description: 'Rust is the fastest, most secure and efficient language in bitcoin today. MyCitadel is 100% written in rust.'  
 
   - image: 'img/stat/s2.png'
-    title: 'Payment Stats'
+    title: 'Portable.'
     link: '#'
-    description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'
+    description: 'Cross-platform: Linux. MacOS. Windows. Descriptor-based, which simplifies export to & import from other wallets.'  
 
-  - image: 'img/stat/s4.png'
-    title: 'Pending Clearnance'
-    link: '#'
-    description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'
-    
+

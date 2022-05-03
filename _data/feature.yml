@@ -5,13 +5,13 @@
 ######  feature Section   ######
 ####################################
 - image: 'img/feature/i1.png'
-  title: 'Collaboration'
-  description: 'Some days a motivational quote can provide a quick pick-me-up for employees and even  management.'
+  title: 'Multi-sig with timelocks'
+  description: 'Ever needed 2-of-3 multisig, which will become 1-of-3 in 5 years? Or thinking about securing your legacy to children & grandchildren? Now it is possible.'
 
 - image: 'img/feature/i3.png'
-  title: 'Full of features'
-  description: 'Some days a motivational quote can provide a quick pick-me-up for employees and even management.'
+  title: 'Hardware signers. Air-gaped'
+  description: 'MyCitadel provide complete hot and cold wallet separation and able to fully operate without any private keys or hardware devices connected.'
 
 - image: 'img/feature/i4.png'
-  title: 'Global Framework'
-  description: 'Some days a motivational quote can provide a quick pick-me-up for employees and even management.'
+  title: 'Taproot'
+  description: 'Not just addresses and key-path spendings, but also multisigs and complex scripts (timelocks, miniscript). So far we are the only wallet doing that.'
