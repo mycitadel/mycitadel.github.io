@@ -31,7 +31,7 @@ markdown            : kramdown
 google_analytics: 
 
 # disqus comment
-disqus_shortname: softdash
+disqus_shortname: mycitadel
 
 
 ####################################
@@ -78,11 +78,11 @@ whitelist:
 ####################################
 
 
-getform_id:  'e5e1f635-da5d-4fc9-9a47-2e10735146f5' # active contact https://getform.io/f/1234
+getform_id:  '0cfff1a2-7cea-4b3c-8655-7223f44b6d9b'
 
 mailchimp:
-  user-id: 
-  list-id: 
+  user-id: orlovsky@pandoraprime.ch
+  list-id: 3dfa94f137
 
 ####################################
 ######        Copyright       ######
