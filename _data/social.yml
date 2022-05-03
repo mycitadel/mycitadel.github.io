@@ -1,8 +1,12 @@
 ####################################
 ######    Social Section      ######
 ####################################
-title: 'Manage Social Network with Our Managing Toolkit'
-description: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected. Spyware scan review is a free service for anyone interested in downloading spyware/adware removal software. Our adware remover is the most trusted.'
+title: 'Time-locked spending conditions'
+description: >-
+  MyCitadel is a wallet for **bitcoin, digital assets and bitcoin finance
+  (#BiFi) smart contracts**. It is blazingly fast, secure, cross-platform 
+  and technically most advanced wallet on the market, being the first wallet
+  allowing taproot multisig and locktime-based spending conditions.
 image: 'img/social-img.png'
-button_text: 'Browse free demo'
+button_text: 'Download'
 button_link: '#'

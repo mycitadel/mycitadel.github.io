@@ -4,9 +4,9 @@
 ####################################
 ######  marketing Section   ######
 ####################################
-title: 'View wallet details'
+title: 'Fine-grained details'
 description: 'Discover transaction history and past balances. Navigate UTXOs. Review address usage statistics and derivation paths.'
 image_one: '/img/marketing/d1.png'
 image_two: '/img/marketing/d2.png'
-btn_text: 'Browse free demo'
+btn_text: 'Download'
 btn_link: '#'
