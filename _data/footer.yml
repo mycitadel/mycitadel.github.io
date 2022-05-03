@@ -5,44 +5,36 @@
 #####################################
 
 title: 'About Us'
-description: 'About 64% of all on-line teens say that do things online that they wouldn’t want their parents to know about. 11% of all adult internet user visit websites.'
+description: >-
+  MyCitadel™ is a brand by Pandora Prime Sarl., a swiss company based in the Verify Valley (canton Neuchatel).
 
 resources_link_heading: 'Resources'
 resources_links: 
-  - text: 'Guides'
-    link: '#'
-  - text: 'Research'
-    link: '#'
-  - text: 'Experts'
-    link: '#'
-  - text: 'Agencies'
-    link: '#'
+  - text: 'Announcements'
+    link: 'https://github.com/orgs/mycitadel/discussions/categories/announcements'
+  - text: 'Questions &amp answers'
+    link: 'https://github.com/orgs/mycitadel/discussions/categories/q-a'
+  - text: 'Support forum'
+    link: 'https://github.com/orgs/mycitadel/discussions'
 
-features_link_heading: 'Features'
+features_link_heading: '&nbsp;'
 features_links:
-  - text: 'Guides'
-    link: '#'
-  - text: 'Research'
-    link: '#'
-  - text: 'Experts'
-    link: '#'
-  - text: 'Agencies'
-    link: '#'
+  - text: 'Download'
+    link: 'https://github.com/mycitadel/mycitadel-desktop/releases/tag/v1.0.0'
+  - text: 'Source code'
+    link: 'https://github.com/mycitadel/mycitadel-desktop'
+  - text: 'Report a bug'
+    link: 'https://github.com/mycitadel/mycitadel-desktop/issues'
 
 social_links:
-  - name: "facebook"
-    link: '#'
-    icon: "fab fa-facebook-f"
+  - name: "github"
+    link: 'https://github.com/mycitadel'
+    icon: "fab fa-github"
 
-  - name: "dribbble"
-    link: '#'
-    icon: "fab fa-dribbble"
+  - name: "twitter"
+    link: 'https://twitter.com/mycitadel_io'
+    icon: "fab fa-twitter"
 
-  - name: "dribbble"
-    link: '#'
-    icon: "fab fa-dribbble"
-
-  - name: "behance"
-    link: '#'
-    icon: "fab fa-behance"
-
+  - name: "telegram"
+    link: 'https://t.me/mycitadel'
+    icon: "fab fa-telegram"

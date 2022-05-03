@@ -6,6 +6,7 @@ name                : 'MyCitadel'
 title               : 'MyCitadel - Ultimate digital sovereignity for bitcoiners'
 email               : enquiries@mycitadel.io
 tagline             : 'description for your new site here' 
+company_name        : 'Pandora Prime Sarl.'
 description: >- # this means to ignore newlines until "baseurl:"
   MyCitadel is a suite of software, hardware and Internet services focused on digital individual sovereignty and privacy. Primarily, is a wallet for bitcoin, digital assets and bitcoin finance (#BiFi) smart contracts. It is blazingly fast, secure, cross-platform and technically most advanced wallet on the market, being the first wallet allowing taproot multisig and locktime-based spending conditions.
 
@@ -13,6 +14,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl             : "" # the subpath of your site, e.g. /blog
 url                 : "https://mycitadel.io" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 favicon: 'img/favicon.png'
+
+download: 'https://github.com/mycitadel/mycitadel-desktop/releases/tag/v1.0.0'
 
 paginate: 12
 paginate_path: "/blog/page:num/"
@@ -84,8 +87,8 @@ mailchimp:
 ####################################
 ######        Copyright       ######
 ####################################
-copyright_text: Copyright © 2021 All rights reserved to
-company_url: '#'
+copyright_text: Copyright © 2021-2022 All rights reserved to
+company_url: 'https://pandoraprime.ch'
 
 
 # SEO Related
