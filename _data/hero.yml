@@ -6,5 +6,5 @@ saas_fixed_image_text: >-
                         multisigs using hardware &amp; air-gaped keys; arbitrary complex time-lock scripts and
                         wallet descriptors.
 saas_fixed_image_image: 'img/mockup.png'
-saas_fixed_image_btn_one_link: '#'
+saas_fixed_image_btn_one_link: 'https://github.com/mycitadel/mycitadel-desktop/releases/tag/v1.3.0'
 saas_fixed_image_btn_one_text:  'Download'
