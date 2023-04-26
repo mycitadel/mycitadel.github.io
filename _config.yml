@@ -13,7 +13,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Do a reliable hodling (with inheritance options), corporate/organization, & current accounts - or instant Lightning payments. Work with single- and multisig setups, based on hardware, air-gaped, cold and server-side hot key storage, involving arbitrary complex time-lock scripts (with miniscript) and wide interoperability (because of use of wallet descriptors).
 baseurl             : "" # the subpath of your site, e.g. /blog
 url                 : "https://mycitadel.io" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
-favicon: 'img/favicon.png'
+favicon: 'favicon.ico'
 
 download: 'https://github.com/mycitadel/mycitadel-desktop/releases/tag/v1.3.0'
 
