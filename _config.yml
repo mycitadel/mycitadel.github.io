@@ -15,7 +15,7 @@ baseurl             : "" # the subpath of your site, e.g. /blog
 url                 : "https://mycitadel.io" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 favicon: 'favicon.ico'
 
-download: 'https://github.com/mycitadel/mycitadel-desktop/releases/tag/v1.3.0'
+download: 'https://github.com/mycitadel/mycitadel-desktop/releases/tag/v1.4.0'
 
 paginate: 12
 paginate_path: "/blog/page:num/"
