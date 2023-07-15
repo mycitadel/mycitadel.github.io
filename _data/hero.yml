@@ -3,7 +3,7 @@ saas_fixed_image_name: 'MyCitadel: Ultimate digital sovereignity'
 saas_fixed_image_text: >-
                         Do a reliable hodling, organizational, &amp;
                         current accounts &ndash; or instant Lightning payments. Work with single- and
-                        multisigs using hardware &amp; air-gaped keys; arbitrary complex time-lock scripts and
+                        multisigs using hardware &amp; air gapped keys; arbitrary complex time-lock scripts and
                         wallet descriptors.
 saas_fixed_image_image: 'img/mockup.png'
 saas_fixed_image_btn_one_link: 'https://github.com/mycitadel/mycitadel-desktop/releases/tag/v1.3.0'
